@@ -84,12 +84,6 @@
 		
 		<!-- provided dependencies -->
 
-		<dependency>
-			<groupId>javax.servlet</groupId>
-			<artifactId>javax.servlet-api</artifactId>
-			<version>3.1.0</version>
-			<scope>provided</scope>
-		</dependency>
 		
 	</dependencies>
 	<distributionManagement>
@@ -105,14 +99,6 @@
 	      <url>http://172.31.12.228:8081/repository/lexus-app-snapshots//</url>
 	    </snapshotRepository>
 	    
-		<extensions>
-    		<extension>
-        		<groupId>com.gradle</groupId>
-        		<artifactId>gradle-enterprise-maven-extension</artifactId>
-        		<version>1.15.5</version>
-    		</extension>
-	</extensions>
-			
 	</distributionManagement>
 	
 	<build>
